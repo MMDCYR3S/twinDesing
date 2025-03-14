@@ -1,1 +1,11 @@
 @import "tailwindcss";
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+@font-face {
+    font-family: morabaa;
+    src: url(./font/Morabba-Medium.woff);
+}
+body{
+    font-family: 'morabaa';
+}
