@@ -10,3 +10,9 @@ body{
     font-family: 'morabaa';
 }
 
+::selection{
+    background-color: rgb(193, 193, 193);
+}
+.max-my-w{
+    max-width: 80vw;
+}

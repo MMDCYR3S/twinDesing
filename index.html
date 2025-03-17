@@ -16,9 +16,13 @@
 </head>
 
 <body class="bg-gray-100">
+    <img src="./pictures/wavy-black-white-background.jpg" alt="" class="absolute h-[120vh] md:h-screen object-cover">
+    <div class="relative">
+
+  
     <!-- * navbar -->
-    <header data-aos="fade-down"
-        class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm pb-3 sm:py-3 rounded-b-3xl shadow-gray-200 shadow-sm"
+    <header data-aos="fade-down" data-aos-duration="1000"
+        class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm pb-3 sm:py-3 rounded-b-3xl bg-opacity-75 backdrop-blur-md"
         dir="ltr">
         <nav class="max-w-[85rem] w-full mx-auto px-4 flex items-center justify-between">
             <img src="./pictures/basicLogo.png" alt="" class="max-w-36 -my-5 pt-1 hidden sm:block" />
@@ -26,17 +30,17 @@
             <div class="flex flex-row items-center gap-2 mt-3 sm:justify-end sm:mt-0 sm:ps-5">
                 <a class="font-medium text-gray-100 bg-gray-950 px-3 py-1 rounded-full hover:bg-gray-600"
                     href="./arashk.html">
-                    ارشک
+                   مقالات
                 </a>
                 <a class="font-medium text-gray-100 bg-gray-950 px-3 py-1 rounded-full hover:bg-gray-600"
-                    href="./amin.html">
-                    امین
+                    href="./contact.html">
+                    ارتباط با ما
                 </a>
                 <a class="font-medium text-gray-100 bg-gray-950 px-3 py-1 rounded-full hover:bg-gray-600"
-                    href="./mahdi.html">
-                    مهدی
+                    href="./about.html">
+                    درباره ما
                 </a>
-                <a class="font-medium focus:outline-hidden" href="#" aria-current="page">
+                <a class="font-medium focus:outline-hidden" href="./index.html" aria-current="page">
                     صفحه اصلی
                 </a>
             </div>
@@ -44,14 +48,15 @@
     </header>
     <div class="px-4">
 
+        <div class="md:h-screen items-center justify-center flex h-[120vh]">
         <!-- * Banner -->
-        <section class="bg-white rounded-xl w-full mt-4 text-center p-4 shadow-gray-200 shadow-md" data-aos="fade-down">
-            <h1 class="sm:text-6xl text-4xl text-gray-950"  >
-                <span class="mx-4"> تواین دیزاین </span>
+        <section class=" bg-white bg-opacity-25 backdrop-blur-lg rounded-xl w-full  text-center p-4 shadow-gray-800/30 shadow-lg lg:max-w-[80vw] -mt-16" data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease" >
+            <h1 class="sm:text-6xl text-4xl text-gray-900"  >
+                
                 <br class="sm:hidden" />
                 Twin Design
             </h1>
-            <p class="mt-6 text-xl text-gray-700 leading-relaxed"  >
+            <p class="mt-6 text-xl text-gray-800 leading-relaxed"  >
                 ما در TwinDesign با تکیه بر تجربه و تخصص خود در زمینه دواپس
                 و دیجیتال مارکتینگ، خدماتی به‌روز و کارآمد ارائه می‌دهیم.
                 طراحی وب‌سایت‌های منحصر به فرد و پیشرفته، استفاده از
@@ -65,74 +70,100 @@
                 همواره سعی داریم تا به مشتریان خود تجربه‌ای منحصر به فرد و
                 با کیفیت ارائه دهیم.
             </p>
+            <h5 class="text-xl font-bold text-gray-900 mt-1 mb-3">
+                میخوای بیشر با ما آشنا بشی؟
+            </h5>
+            <a href="./about.html" class=" px-5 py-2 bg-gray-900 text-white rounded-xl animate-pulse" >  درباره ما </a>
         </section>
-
-        <!-- divider -->
-        <div class="flex flex-row text-center items-center mt-8" data-aos="fade">
-            <div class="h-1 bg-blue-950 w-full  rounded-full"></div>
-            <h1 class="w-full text-2xl md:text-4xl text-gray-800 font-bold" >
-                درباره ما
-            </h1>
-            <div class="h-1 bg-blue-950 w-full rounded-full"></div>
+  </div>
         </div>
-
-        <!-- *  About -->
-        <section class="flex flex-col md:flex-row mt-8 gap-4">
-            <div data-aos="fade-up"
-                class="cart flex-1 border rounded-xl duration-75 flex flex-col shadow-gray-300 shadow-lg">
-                <img src="./pictures/amin.jpg" alt="" class="rounded-xl m-2" />
-                <div class="text mx-4">
-                    <h3 class="text-2xl mb-2">محمد امین غلامی</h3>
-                    <h4 class="text-lg mb-1 font-bold">تخصص : بک اند</h4>
-                    <h4 class="text-lg mb-4 font-bold">09137514625</h4>
-                    <a href="./amin.html" class="px-4 py-2 bg-gray-950 text-white rounded-xl hover:bg-gray-700">
-                        مشاهده رزومه
-                    </a>
-                    <br />
-                    <br />
-                </div>
+  <img src="./pictures/3254317.jpg" alt="" class="absolute md:h-screen  object-cover w-screen h-[160vh] -mt-8">
+  <div class="relative">
+        <!-- divider -->
+        <h2 class="bg-gray-200 py-3 -mt-20 bg-opacity-50 backdrop-blur-md rounded-full text-center text-2xl font-bold text-gray-900 shadow-md "> خدمات ما </h2>
+        <!-- Services -->
+        <div class="md:h-screen flex justify-center  h-[160vh]">
+        <section class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mt-8 gap-5 justify-center  p-4 max-h-[80vh] lg:text-xl">
+            
+            <div class="card text-center border border-dashed lg:py-10 border-gray-700 rounded-lg p-2 backdrop-blur-md" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease" > 
+                <i class="bi bi-window-stack text-3xl lg:text-5xl"></i>
+                <h3 class="text-lg font-bold mb-1 lg:text-2xl lg:my-4">  طراحی صفر تا صد وبسایت  </h3>
+                <p class="text-gray-700">
+                    هر وب‌سایتی که بخواید، تیم تواین دیزاین براتون می‌سازه! از ایده تا اجرا، ما همه‌چیز رو به بهترین شکل مدیریت می کنیم ، صفر تا صد
+                </p>
             </div>
 
-            <div data-aos="fade-up"
-                class="cart flex-1 border rounded-xl 0 duration-75 flex flex-col shadow-gray-300 shadow-lgshadow-gray-300 shadow-lg">
-                <img src="./pictures/mahdi.jpg" alt="" class="rounded-xl m-2" />
-                <div class="text mx-4">
-                    <h3 class="text-2xl mb-2">مهدی رحیمی</h3>
-                    <h4 class="text-lg mb-1 font-bold">تخصص : فرانت اند</h4>
-                    <h4 class="text-lg mb-4 font-bold">09330880234</h4>
-                    <a href="./mahdi.html" class="px-4 py-2 bg-gray-950 text-white rounded-xl hover:bg-gray-700">
-                        مشاهده رزومه
-                    </a>
-                    <br />
-                    <br />
-                </div>
+            <div class="card text-center border border-dashed lg:py-10 border-gray-700 rounded-lg p-2 backdrop-blur-md " data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease"> 
+                <i class="bi  bi-laptop text-3xl lg:text-5xl "></i>
+                <h3 class="text-lg font-bold mb-1 lg:text-2xl lg:my-4"> توسعه فرانت اند  </h3>
+                <p class="text-gray-700">
+                    از اینکه سایتت اون ظاهر مدرن و دلخواهت رو نداره خسته شدی؟ تیم تواین دیزاین جذاب‌ترین رابط‌های گرافیکی رو با توجه به سلیقه و ایده‌های تو خلق می‌کنه تا سایتت دقیقاً همون چیزی بشه که همیشه می‌خواستی!
+                </p>
             </div>
 
-            <div data-aos="fade-up"
-                class="cart flex-1 border rounded-xl duration-75 flex flex-col shadow-gray-300 shadow-lg">
-                <img src="./pictures/arashk.jpg" alt="" class="rounded-xl m-2" />
-                <div class="text mx-4">
-                    <h3 class="text-2xl mb-2">سید ارشک ذولقدر</h3>
-                    <h4 class="text-lg mb-1 font-bold">تخصص : بک اند</h4>
-                    <h4 class="text-lg mb-4 font-bold">09309523073</h4>
-                    <a href="./arashk.html" class="px-4 py-2 bg-gray-950 text-white rounded-xl hover:bg-gray-700">
-                        مشاهده رزومه
-                    </a>
-                    <br />
-                    <br />
-                </div>
+            <div class="card text-center border border-dashed lg:py-10 border-gray-700 rounded-lg p-2 backdrop-blur-md" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease"> 
+                <i class="bi bi-hdd-network text-3xl lg:text-5xl "></i>
+                <h3 class="text-lg font-bold mb-1 lg:text-2xl lg:my-4"> توسعه بک اند </h3>
+                <p class="text-gray-700">
+                   بک‌اند فقط کد نیست، یه هنره که ما تو تواین دیزاین استادشیم! سرورهایی که با دقت میلی‌متری طراحی می‌کنیم، دیتابیس‌هایی که مثل ساعت کار می‌کنن، و APIهایی که سریع‌تر از فکرت جواب می‌دن!
+                </p>
             </div>
+
+            <div class="card text-center border border-dashed lg:py-10 border-gray-700 rounded-lg p-2 backdrop-blur-md" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease"> 
+                <i class="bi bi-headset text-3xl lg:text-5xl"></i>
+                <h3 class="text-lg font-bold mb-1 lg:text-2xl lg:my-4"> پشتیبانی و نگهداری </h3>
+                <p class="text-gray-700">
+                  نگران سایتت نباش، ما هواتو داریم! توی تواین دیزاین، پشتیبانی یعنی خیال راحت تو: به‌روزرسانی‌های منظم، رفع سریع مشکلات، و مراقبت دائمی که سایتت همیشه روبه‌راه باشه. تو فقط به کار خودت برس، بقیه‌ش با ما!
+                </p>
+            </div>
+
+            <div class="card text-center border border-dashed lg:py-10 border-gray-700 rounded-lg p-2 backdrop-blur-md" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease"> 
+                <i class="bi bi-headphones text-3xl lg:text-5xl"></i>
+                <h3 class="text-lg font-bold mb-1 lg:text-2xl lg:my-4"> مشاوره رایگان </h3>
+                <p class="text-gray-700">
+                    نمیدونی از کجا شروع کنی؟ راجب وب و وبسایت ها دانش کافی نداری؟ مشاوره های رایگان ما برای همین موقع هاست! پس نگران هیچی نباش همه چیز رو ساده برات  توضیح میدیم و راه رو نشون میدیم 
+            </div>
+
+            <div class="card text-center border border-dashed lg:py-10 border-gray-700 rounded-lg p-2 backdrop-blur-md " data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease"> 
+                <i class="bi bi-search text-3xl lg:text-5xl "></i>
+                <h3 class="text-lg font-bold mb-1 lg:text-2xl lg:my-4"> سئو و بهینه‌سازی </h3>
+                <p class="text-gray-700">
+                  سایتت دیده نمی‌شه؟ ما درستش می‌کنیم! توی تواین دیزاین، با سئو و بهینه‌سازی حرفه‌ای، سایتت رو بالا می‌آریم .سریع‌تر، بهتر، و همیشه تو چشم. تو فقط منتظر نتیجه باش!
+            </div>
+
+            <div class="card text-center border border-dashed lg:py-10 border-gray-700 rounded-lg p-2 backdrop-blur-md " data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease"> 
+                <i class="bi bi-window-sidebar text-3xl lg:text-5xl"></i>
+                <h3 class="text-lg font-bold mb-1 lg:text-2xl lg:my-4"> بازسازی سایت شما </h3>
+                <p class="text-gray-700">
+                 سایتت رو یکی دیگه ساخته ولی نیاز به تغییر داره؟ توی تواین دیزاین، سایت آماده‌ات رو می‌گیریم و هر چی بخوای روش ادیت می‌کنیم .از طراحی جدید گرفته تا امکانات بیشتر، سریع و حرفه‌ای، جوری که انگار خودمون از اول ساختیمش!
+            </div>
+
+            <div class="card text-center border border-dashed lg:py-10 border-gray-700 rounded-lg p-2 backdrop-blur-md " data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease"> 
+                <i class="bi bi-brush text-3xl lg:text-5xl"></i>
+                <h3 class="text-lg font-bold mb-1 lg:text-2xl lg:my-4"> طراحی UI/UX </h3>
+                <p class="text-gray-700">
+                    سایتت هم خوشگل باشه هم کار راه‌بیفته؟ ما برات درستش می‌کنیم! توی تواین دیزاین، خودمون UI و UX رو طراحی می‌کنیم. نیازی به یه طراح جدا هم نداری، همه‌چیز رو یه‌جا و حرفه‌ای تحویل می‌گیری!
+            </div>
+
+
+            
         </section>
+</div>
+</div>
 
-        <section class="why-choose-us-section py-20 bg-gray-100 -mb-8">
+
+<img src="./pictures/wavy-black-white-background (2).jpg" alt="" class="h-[200vh] md:h-[150vh] lg:h-screen object-cover w-screen absolute">
+<!-- divider -->
+
+<h2 class=" bg-gray-200 py-3 -mt-8 bg-opacity-50 backdrop-blur-md rounded-full text-center text-2xl font-bold text-gray-900 shadow-md "> چرا ما را  انتخاب کنید ؟ </h2>
+    <div class=" h-[200vh] md:h-[150vh] lg:h-screen relative flex justify-center items-center">
+<!-- why choose us? -->
+        <section class="why-choose-us  py-20  ">
             <div class="container mx-auto px-4">
-                <h2 class="text-3xl font-semibold text-gray-950 mb-8 text-center">
-                    چرا ما را انتخاب کنید؟
-                </h2>
                 <div class="lg:flex lg:flex-wrap justify-center gap-8">
                     <div class="lg:w-1/3  mb-8 lg:mb-0">
                         <div data-aos="slide-up"
-                            class="bg-white rounded-xl shadow-md p-8 h-full flex flex-col justify-center items-center text-center">
+                            class="bg-gray-200 bg-opacity-25 backdrop-blur-sm rounded-xl shadow-md p-8 h-full flex flex-col justify-center items-center text-center">
                             <i class="bi bi-shield-check text-4xl text-blue-600 mb-4"></i>
                             <h3 class="text-xl font-semibold text-gray-950 mb-2">
                                 کیفیت بی‌نظیر
@@ -145,7 +176,7 @@
                     </div>
                     <div class="lg:w-1/3 mb-8 lg:mb-0">
                         <div data-aos="slide-up"
-                            class="bg-white rounded-xl shadow-md p-8 h-full flex flex-col justify-center items-center text-center">
+                            class="bg-gray-200 bg-opacity-25 backdrop-blur-sm rounded-xl shadow-md p-8 h-full flex flex-col justify-center items-center text-center">
                             <i class="bi bi-boxes text-4xl text-blue-600 mb-4"></i>
                             <h3 class="text-xl font-semibold text-gray-950 mb-2">
                                 تنوع محصولات
@@ -158,7 +189,7 @@
                     </div>
                     <div class="lg:w-1/3 mb-8 lg:mb-0">
                         <div data-aos="slide-up"
-                            class="bg-white rounded-xl shadow-md p-8 h-full flex flex-col justify-center items-center text-center">
+                            class="bg-gray-200 bg-opacity-25 backdrop-blur-sm rounded-xl shadow-md p-8 h-full flex flex-col justify-center items-center text-center">
                             <i class="bi bi-tags text-4xl text-blue-600 mb-4"></i>
                             <h3 class="text-xl font-semibold text-gray-950 mb-2">
                                 قیمت رقابتی
@@ -171,7 +202,7 @@
                     </div>
                     <div class="lg:w-1/3 mb-8 lg:mb-0">
                         <div data-aos="slide-up"
-                            class="bg-white rounded-xl shadow-md p-8 h-full flex flex-col justify-center items-center text-center">
+                            class="bg-gray-200 bg-opacity-25 backdrop-blur-sm rounded-xl shadow-md p-8 h-full flex flex-col justify-center items-center text-center">
                             <i class="bi bi-headset text-4xl text-blue-600 mb-4"></i>
                             <h3 class="text-xl font-semibold text-gray-950 mb-2">
                                 خدمات مشتریان عالی
@@ -184,12 +215,12 @@
                     </div>
                     <div class="lg:w-1/3 mb-8 lg:mb-0">
                         <div data-aos="slide-up"
-                            class="bg-white rounded-xl shadow-md p-8 h-full flex flex-col justify-center items-center text-center">
+                            class="bg-gray-200 bg-opacity-25 backdrop-blur-sm rounded-xl shadow-md p-8 h-full flex flex-col justify-center items-center text-center">
                             <i class="bi bi-gear text-4xl text-blue-600 mb-4"></i>
                             <h3 class="text-xl font-semibold text-gray-950 mb-2">
                                 تخصص و تجربه
                             </h3>
-                            <p class="text-gray-700">
+                            <p class="text-gray-800">
                                 تیم متخصص و با تجربه با دانش عمیق در زمینه
                                 طراحی وبسایت .
                             </p>
@@ -197,12 +228,12 @@
                     </div>
                     <div class="lg:w-1/3 mb-8 lg:mb-0">
                         <div data-aos="slide-up"
-                            class="bg-white rounded-xl shadow-md p-8 h-full flex flex-col justify-center items-center text-center">
+                            class="bg-gray-200 bg-opacity-25 backdrop-blur-sm rounded-xl shadow-md p-8 h-full flex flex-col justify-center items-center text-center">
                             <i class="bi bi-wrench text-4xl text-blue-600 mb-4"></i>
                             <h3 class="text-xl font-semibold text-gray-950 mb-2">
                                 سفارشی‌سازی
                             </h3>
-                            <p class="text-gray-700">
+                            <p class="text-gray-800">
                                 امکان طراحی و تولید طرح سفارشی بر اساس
                                 نیازهای خاص مشتریان.
                             </p>
@@ -211,95 +242,20 @@
                 </div>
             </div>
         </section>
-
-        <!-- divider -->
-        <div class="flex flex-row text-center items-center mt-8" data-aos="fade">
-            <div class="h-1 bg-blue-950 w-full  rounded-full"></div>
-            <h1 class="w-full text-2xl md:text-4xl text-gray-800 font-bold" >
-                نمونه کارها
-            </h1>
-            <div class="h-1 bg-blue-950 w-full rounded-full"></div>
-        </div>
-        
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 my-16" data-aos="fade">
-            <div class="card shadow-md border p-2 rounded-xl text-center">
-                <img src="./pictures/Screenshot (64).png" alt="" class="rounded-xl mb-2">
-                <a href="./example.com" class=" text-blue-700"> example.com </a>
-            </div>
-            <div class="card shadow-md border p-2 rounded-xl text-center">
-                <img src="./pictures/Screenshot (64).png" alt="" class="rounded-xl mb-2">
-                <a href="./example.com" class=" text-blue-700"> example.com </a>
-            </div>
-            <div class="card shadow-md border p-2 rounded-xl text-center">
-                <img src="./pictures/Screenshot (64).png" alt="" class="rounded-xl mb-2">
-                <a href="./example.com" class=" text-blue-700"> example.com </a>
-            </div>
-            <div class="card shadow-md border p-2 rounded-xl text-center">
-                <img src="./pictures/Screenshot (64).png" alt="" class="rounded-xl mb-2">
-                <a href="./example.com" class=" text-blue-700"> example.com </a>
-            </div>
-
-        </div>
+</div>
 
 
-        <!-- divider -->
-        <div data-aos="fade-in" class="flex flex-row text-center items-center ">
-            <div class="h-1 bg-blue-950 w-full rounded-full"></div>
-            <h1 class="w-full text-2xl md:text-4xl text-gray-800 font-bold">
-                ارتباط با ما
-            </h1>
-            <div  class="h-1 bg-blue-950 w-full  rounded-full"></div>
-        </div>
 
-        <!-- * Contact -->
-        <section class="mt-8">
-            <div class="container mx-auto px-4">
 
-                <p  data-aos="fade-in"  class="text-lg text-gray-800 text-center max-w-2xl mx-auto mb-12">
-                    برای کسب اطلاعات بیشتر، مشاوره و ثبت سفارش، با ما در تماس
-                    باشید.
-                </p>
-                <div class="md:flex justify-center gap-8">
-                    <div class="md:w-1/2">
-                        <div class="bg-white rounded-xl shadow-md p-8">
-                            <h3 class="text-xl font-semibold text-gray-950 mb-4">
-                                فرم تماس
-                            </h3>
-                            <form action="#" method="post"  data-aos="fade-in" >
-                                <div class="mb-4">
-                                    <label for="name" class="block text-gray-700 text-sm font-bold mb-2">نام و نام
-                                        خانوادگی</label>
-                                    <input type="text" id="name" name="name"
-                                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" />
-                                </div>
-                                <div class="mb-4">
-                                    <label for="email" class="block text-gray-700 text-sm font-bold mb-2">ایمیل</label>
-                                    <input type="email" id="email" name="email"
-                                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" />
-                                </div>
-                                <div class="mb-4">
-                                    <label for="message" class="block text-gray-700 text-sm font-bold mb-2">پیام</label>
-                                    <textarea id="message" name="message" rows="5"
-                                        class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
-                                </div>
-                                <div class="flex items-center justify-between">
-                                    <button
-                                        class=" bg-gray-950 hover:bg-gray-700 text-white font-bold py-2 px-8 rounded-xl "
-                                        type="submit">
-                                        ارسال پیام
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-        </section>
+
+
     </div>
 
     <!--  * footer-->
 
 
-    <footer class=" shadow-sm mt-8 " dir="ltr">
-        <div class="bg-gray-900 w-screen mx-auto  p-4 flex items-center justify-between ">
+    <footer class=" shadow-sm -mt-8 bg-gray-700" dir="ltr">
+        <div class="bg-gray-600 w-screen mx-auto  p-4 flex items-center justify-between ">
             <span class="text-sm text-gray-300 sm:text-center ">© 2023 <a href="https://TwinDesign.com/"
                     class="hover:underline">TwinDesign™</a>. All Rights Reserved.
             </span>
