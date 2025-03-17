@@ -13,68 +13,63 @@
 <link rel="icon" type="image/x-icon" href="./pictures/favicon.ico">
 <script src="https://cdn.jsdelivr.net/npm/rellax@1.12.1/rellax.min.js"></script>
 
-<style>
-    /* استایل پارالاکس برای هیرو */
-    .parallax {
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-</style>
-
     <title>TwinDesign</title>
 </head>
-
-<style>
-        /* استایل پارالاکس برای هیرو */
-        .parallax {
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-    </style>
 <body>
+
+    <img src="./pictures/wavy-black-white-background (1).jpg" alt="" class=" absolute h-[220vh] md:h-screen object-cover w-screen ">
+    <!-- * navbar -->
+    <header data-aos="fade-down" data-aos-duration="1000"
+        class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm pb-3 sm:py-3 rounded-b-3xl bg-opacity-75 backdrop-blur-md"
+        dir="ltr">
+        <nav class="max-w-[85rem] w-full mx-auto px-4 flex items-center justify-between">
+            <img src="./pictures/basicLogo.png" alt="" class="max-w-36 -my-5 pt-1 hidden sm:block" />
+            <img src="./pictures/mobileLogo.png" alt="" class="block sm:hidden w-9 -mb-3" />
+            <div class="flex flex-row items-center gap-2 mt-3 sm:justify-end sm:mt-0 sm:ps-5">
+                <a class="font-medium text-gray-100 bg-gray-950 px-3 py-1 rounded-full hover:bg-gray-600"
+                    href="./arashk.html">
+                   مقالات
+                </a>
+                <a class="font-medium text-gray-100 bg-gray-950 px-3 py-1 rounded-full hover:bg-gray-600"
+                    href="./contact.html">
+                    ارتباط با ما
+                </a>
+                <a class="font-medium text-gray-100 bg-gray-950 px-3 py-1 rounded-full hover:bg-gray-600"
+                    href="./about.html">
+                    درباره ما
+                </a>
+                <a class="font-medium focus:outline-hidden" href="./index.html" aria-current="page">
+                    صفحه اصلی
+                </a>
+            </div>
+        </nav>
+    </header>
+<div class="px-6">
+
+        <!-- * Story -->
+        <div class=" mt-8 md:h-screen h-[220vh] ">
+            <div class="flex flex-row" data-aos="zoom-in-left" data-aos-duration="1500" data-aos-easing="ease">
+                <div class="card lg:max-w-[70vw] bg-white bg-opacity-25 flex md:flex-row flex-col gap-3 shadow-md shadow-gray-700/30 rounded-xl backdrop-blur-lg">
+                    <img src="./pictures/step2About.jpg" alt="" class="flex-1 w-96 rounded-lg">
+                    <p class="flex-2 leading-8 p-4 text-gray-950 lg:text-xl lg:leading-10">
+                        همه چیز از یک اتفاق شروع شد؛ زمانی که دو دوست، تصمیم گرفتن که به همکارایی تبدیل بشن که ذره‌ای به هم شبیه نبودن. بر حسب اتفاق، هر دوشون می‌‌خواستن که طراح وبسایت بشن. پس استارت یک تیم رو باهم زدن. هر روز بر سر چالش‌ها درگیری داشتن و گاهاً با همدیگه هم دعوا بر سر اینکه چه کاری انجام بدن، می‌کردن. چالش‌ها یکی‌یکی پشت سرگذاشته می‌شد و این دوتا یاد می‌گرفتن که چطوری با هم کنار بیاند و با وجود تفاوت‌های واضح خودشون، به تفاهم برسند؛ البته نه همیشه.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="flex flex-row-reverse mt-4" data-aos="zoom-in-right" data-aos-duration="1500" data-aos-easing="ease">
+                <div class="card lg:max-w-[70vw] bg-white bg-opacity-25 flex md:flex-row-reverse flex-col gap-3 shadow-md shadow-gray-700/30 rounded-xl backdrop-blur-lg">
+                    <img src="./pictures/step3About.jpg" alt="" class="flex-1 w-96 rounded-lg">
+                    <p class="flex-2 leading-8 p-4 text-gray-950 lg:text-xl lg:leading-10">
+                        از این قسمت که گذشت، با یک دیزاینر آشنا شدند که در کار خودش حرفه‌ای بود و این باعث شد که یک تیم سه نفره تشکیل بشه. این دیزاینر حرفه‌ای هم با چالش‌های تیمی روبرو شد که همین موضوع باعث پیشرفت اعضای تیم شد. در آخر، این سه نفر تصمیم گرفتن که وبسایتی طراحی کنن که بتونه خدماتی در همین موضوع ارائه بده.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
 </body>
-
-<!-- بخش هیرو -->
-<div class="relative h-screen parallax" style="background-image: url('https://via.placeholder.com/1920x1080');">
-    <div class="absolute inset-0 bg-black opacity-50"></div>
-    <div class="absolute inset-0 flex items-center justify-center">
-        <h1 class="text-5xl font-bold animate-bounce">گالری پارالاکس زیبا</h1>
-    </div>
-</div>
-
-<!-- گالری تصاویر -->
-<div class="container mx-auto py-16">
-    <h2 class="text-3xl font-bold text-center mb-8 text-gray-200">گالری ما</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="rellax" data-rellax-speed="2">
-            <img src="./pictures/arashk.jpg" alt="تصویر 1" class="w-full h-64 object-cover rounded-lg shadow-lg">
-        </div>
-        <div class="rellax" data-rellax-speed="-1">
-            <img src="https://via.placeholder.com/600x400" alt="تصویر 2" class="w-full h-64 object-cover rounded-lg shadow-lg">
-        </div>
-        <div class="rellax" data-rellax-speed="3">
-            <img src="https://via.placeholder.com/600x400" alt="تصویر 3" class="w-full h-64 object-cover rounded-lg shadow-lg">
-        </div>
-    </div>
-</div>
-
-<!-- فوتر -->
-<footer class="bg-black py-4 text-center">
-    <p class="text-gray-400">&copy; 2023 نام شما. تمامی حقوق محفوظ است.</p>
-</footer>
-
-<!-- فعال‌سازی Rellax -->
-<script>
-    var rellax = new Rellax('.rellax');
-</script>
-
 <script>
     AOS.init();
-
-
   </script>
 </html>
