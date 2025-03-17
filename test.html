@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com?version=3.4.1"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+<!-- AOS CSS -->
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+<!-- AOS JS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<link rel="icon" type="image/x-icon" href="./pictures/favicon.ico">
+<script src="https://cdn.jsdelivr.net/npm/rellax@1.12.1/rellax.min.js"></script>
+
+<style>
+    /* استایل پارالاکس برای هیرو */
+    .parallax {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+
+    <title>TwinDesign</title>
+</head>
+
+<style>
+        /* استایل پارالاکس برای هیرو */
+        .parallax {
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    </style>
+<body>
+</body>
+
+<!-- بخش هیرو -->
+<div class="relative h-screen parallax" style="background-image: url('https://via.placeholder.com/1920x1080');">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="absolute inset-0 flex items-center justify-center">
+        <h1 class="text-5xl font-bold animate-bounce">گالری پارالاکس زیبا</h1>
+    </div>
+</div>
+
+<!-- گالری تصاویر -->
+<div class="container mx-auto py-16">
+    <h2 class="text-3xl font-bold text-center mb-8 text-gray-200">گالری ما</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="rellax" data-rellax-speed="2">
+            <img src="./pictures/arashk.jpg" alt="تصویر 1" class="w-full h-64 object-cover rounded-lg shadow-lg">
+        </div>
+        <div class="rellax" data-rellax-speed="-1">
+            <img src="https://via.placeholder.com/600x400" alt="تصویر 2" class="w-full h-64 object-cover rounded-lg shadow-lg">
+        </div>
+        <div class="rellax" data-rellax-speed="3">
+            <img src="https://via.placeholder.com/600x400" alt="تصویر 3" class="w-full h-64 object-cover rounded-lg shadow-lg">
+        </div>
+    </div>
+</div>
+
+<!-- فوتر -->
+<footer class="bg-black py-4 text-center">
+    <p class="text-gray-400">&copy; 2023 نام شما. تمامی حقوق محفوظ است.</p>
+</footer>
+
+<!-- فعال‌سازی Rellax -->
+<script>
+    var rellax = new Rellax('.rellax');
+</script>
+
+<script>
+    AOS.init();
+
+
+  </script>
+</html>
